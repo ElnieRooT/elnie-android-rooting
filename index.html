@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ELNIE Android Rooting Service – Professional Android Rooting, Bootloader Unlock, Magisk, Custom ROM, GSI, Unbrick & Device Recovery. Safe, Fast & Affordable." />
+  <meta name="keywords" content="Android Root, Bootloader Unlock, Magisk, Custom ROM, GSI, Unbrick, Oppo, Xiaomi, Samsung, Realme, Vivo, OnePlus, Philippines" />
+  <meta name="author" content="Elnie" />
+  <meta name="theme-color" content="#00FF66" />
+  <meta property="og:title" content="ELNIE Android Rooting Service" />
+  <meta property="og:description" content="Unlock the Full Potential of Your Android Device. Professional Rooting & Unlocking Service." />
+  <meta property="og:type" content="website" />
+  <title>ELNIE Android Rooting Service | Professional Root • Unlock • Custom ROM</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+  <!-- ==================== LOADING SCREEN ==================== -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <i class="fas fa-bolt"></i>
+      </div>
+      <div class="loader-text">ELNIE</div>
+      <div class="loader-bar">
+        <div class="loader-progress"></div>
+      </div>
+      <div class="loader-sub">Initializing System...</div>
+    </div>
+  </div>
+
+  <!-- ==================== SCROLL PROGRESS ==================== -->
+  <div id="scroll-progress"></div>
+
+  <!-- ==================== CURSOR GLOW ==================== -->
+  <div id="cursor-glow"></div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-icon"><i class="fas fa-bolt"></i></span>
+        <span class="brand-text">ELNIE</span>
+        <span class="brand-sub">ROOT</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#brands">Brands</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#compatibility">Check Device</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a href="https://wa.me/639948620084" target="_blank" class="btn btn-neon btn-sm">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            Professional Android Service
+          </div>
+          <h1 class="hero-title">
+            <span class="typed-text"></span>
+          </h1>
+          <p class="hero-subtitle">
+            Unlock the Full Potential of Your Android Device
+          </p>
+          <p class="hero-desc">
+            Expert rooting, bootloader unlocking, Magisk, custom ROMs, GSI installation, unbrick & recovery. Safe • Fast • Professional.
+          </p>
+          <div class="hero-buttons">
+            <a href="https://wa.me/639948620084?text=Hi%20Elnie%2C%20I%20want%20to%20root%20my%20phone" target="_blank" class="btn btn-neon btn-lg">
+              <i class="fab fa-whatsapp"></i> WhatsApp Now
+            </a>
+            <a href="https://www.facebook.com/share/14hrT39vNb6/" target="_blank" class="btn btn-outline-neon btn-lg">
+              <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="#services" class="btn btn-ghost btn-lg">
+              View Services <i class="fas fa-arrow-down"></i>
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="500">0</span>+
+              <span class="stat-label">Devices Rooted</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="98">0</span>%
+              <span class="stat-label">Success Rate</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="15">0</span>+
+              <span class="stat-label">Brands Supported</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <div class="hero-visual">
+            <div class="android-glow">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+            <div class="floating-code code-1">root@android:~#</div>
+            <div class="floating-code code-2">magisk --install</div>
+            <div class="floating-code code-3">fastboot unlock</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section id="services" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our <span class="text-neon">Services</span></h2>
+        <p class="section-desc">Professional Android modification & recovery services tailored for your device</p>
+      </div>
+      <div class="row g-4">
+        <!-- Service Cards -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-unlock-alt"></i></div>
+            <h3>Android Root</h3>
+            <p>Gain full superuser access to your device. Install Magisk, systemless root, and advanced modules.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-key"></i></div>
+            <h3>Bootloader Unlock</h3>
+            <p>Unlock your device bootloader safely. Required for custom ROMs, recovery, and advanced mods.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-magic"></i></div>
+            <h3>Magisk Installation</h3>
+            <p>Systemless Magisk setup with Zygisk, modules support, and hide features for banking apps.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-microchip"></i></div>
+            <h3>Kernel Installation</h3>
+            <p>Custom kernels for better performance, battery life, overclocking, and advanced features.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3>Custom ROM</h3>
+            <p>Install popular custom ROMs (LineageOS, Pixel Experience, Evolution X, and more).</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+            <h3>GSI Installation</h3>
+            <p>Generic System Image installation for devices without dedicated custom ROMs.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-sync-alt"></i></div>
+            <h3>Bootloop Fix</h3>
+            <p>Recover devices stuck in bootloop. Fast diagnosis and reliable recovery solutions.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-tools"></i></div>
+            <h3>Unbrick Service</h3>
+            <p>Hard brick and soft brick recovery. EDL, BROM, and download mode repair.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-broom"></i></div>
+            <h3>Debloat</h3>
+            <p>Remove bloatware and system apps. Cleaner system, more free storage & better performance.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="450">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
+            <h3>Performance Optimization</h3>
+            <p>Tune CPU, GPU, RAM management, and system settings for maximum speed.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-battery-full"></i></div>
+            <h3>Battery Optimization</h3>
+            <p>Extend battery life with kernel tweaks, wakelock fixes, and power profiles.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="550">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-life-ring"></i></div>
+            <h3>Root Troubleshooting</h3>
+            <p>Fix Magisk issues, SafetyNet / Play Integrity problems, and module conflicts.</p>
+            <div class="service-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BRANDS ==================== -->
+  <section id="brands" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Wide Compatibility</span>
+        <h2 class="section-title">Supported <span class="text-neon">Brands</span></h2>
+        <p class="section-desc">We support a wide range of Android manufacturers</p>
+      </div>
+      <div class="brands-grid" data-aos="fade-up" data-aos-delay="100">
+        <div class="brand-item"><i class="fab fa-android"></i><span>Samsung</span></div>
+        <div class="brand-item"><i class="fab fa-google"></i><span>Google Pixel</span></div>
+        <div class="brand-item"><i class="fas fa-mobile"></i><span>Xiaomi</span></div>
+        <div class="brand-item"><i class="fas fa-mobile-alt"></i><span>Redmi</span></div>
+        <div class="brand-item"><i class="fas fa-gamepad"></i><span>POCO</span></div>
+        <div class="brand-item"><i class="fas fa-mobile"></i><span>OPPO</span></div>
+        <div class="brand-item"><i class="fas fa-mobile-alt"></i><span>Realme</span></div>
+        <div class="brand-item"><i class="fas fa-mobile"></i><span>Vivo</span></div>
+        <div class="brand-item"><i class="fas fa-circle"></i><span>Nothing Phone</span></div>
+        <div class="brand-item"><i class="fas fa-plus-circle"></i><span>OnePlus</span></div>
+        <div class="brand-item"><i class="fas fa-mobile"></i><span>Motorola</span></div>
+        <div class="brand-item"><i class="fas fa-camera"></i><span>Sony</span></div>
+        <div class="brand-item"><i class="fas fa-laptop"></i><span>ASUS</span></div>
+        <div class="brand-item"><i class="fas fa-tablet-alt"></i><span>Lenovo</span></div>
+        <div class="brand-item"><i class="fas fa-mobile"></i><span>Huawei</span></div>
+        <div class="brand-item"><i class="fas fa-award"></i><span>Honor</span></div>
+      </div>
+      <p class="text-center mt-4 text-muted" data-aos="fade-up">
+        <i class="fas fa-info-circle me-2"></i> Not listed? Message us — we may still support your device.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== PRICING ==================== -->
+  <section id="pricing" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Transparent Rates</span>
+        <h2 class="section-title">Service <span class="text-neon">Pricing</span></h2>
+        <p class="section-desc">Affordable packages starting from ₱300. Final price depends on device & complexity.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Starter</h3>
+              <div class="price">₱300<span>+</span></div>
+              <p>Basic services</p>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Debloat</li>
+              <li><i class="fas fa-check"></i> Basic Optimization</li>
+              <li><i class="fas fa-check"></i> Compatibility Check</li>
+              <li><i class="fas fa-check"></i> Remote Guidance</li>
+            </ul>
+            <a href="https://wa.me/639948620084?text=Hi%2C%20I%20want%20the%20Starter%20package" target="_blank" class="btn btn-outline-neon w-100">Get Started</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-card popular">
+            <div class="popular-badge">Most Popular</div>
+            <div class="pricing-header">
+              <h3>Root + Magisk</h3>
+              <div class="price">₱700<span>+</span></div>
+              <p>Complete root package</p>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Bootloader Unlock</li>
+              <li><i class="fas fa-check"></i> Magisk Installation</li>
+              <li><i class="fas fa-check"></i> Zygisk + Modules</li>
+              <li><i class="fas fa-check"></i> Play Integrity Fix</li>
+              <li><i class="fas fa-check"></i> Remote Support</li>
+            </ul>
+            <a href="https://wa.me/639948620084?text=Hi%2C%20I%20want%20Root%20%2B%20Magisk" target="_blank" class="btn btn-neon w-100">Choose Plan</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Premium Package</h3>
+              <div class="price">₱1,200<span>+</span></div>
+              <p>Full custom experience</p>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Everything in Root</li>
+              <li><i class="fas fa-check"></i> Custom ROM / GSI</li>
+              <li><i class="fas fa-check"></i> Kernel Installation</li>
+              <li><i class="fas fa-check"></i> Full Optimization</li>
+              <li><i class="fas fa-check"></i> Priority Support</li>
+            </ul>
+            <a href="https://wa.me/639948620084?text=Hi%2C%20I%20want%20the%20Premium%20Package" target="_blank" class="btn btn-outline-neon w-100">Go Premium</a>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 mt-2 justify-content-center">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+          <div class="pricing-mini">
+            <h4>Bootloader Unlock</h4>
+            <div class="price-mini">₱500+</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="50">
+          <div class="pricing-mini">
+            <h4>Custom ROM</h4>
+            <div class="price-mini">₱800+</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-mini">
+            <h4>Unbrick / Bootloop</h4>
+            <div class="price-mini">₱600+</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+          <div class="pricing-mini">
+            <h4>GSI Installation</h4>
+            <div class="price-mini">₱700+</div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center mt-4 text-muted" data-aos="fade-up">
+        <i class="fas fa-exclamation-triangle me-2 text-neon"></i> Prices may vary depending on device model, Android version, and complexity. Free compatibility check available.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== WHY CHOOSE US ==================== -->
+  <section id="why-us" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Our Advantage</span>
+        <h2 class="section-title">Why Choose <span class="text-neon">ELNIE</span></h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="0">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-user-tie"></i></div>
+            <h4>Professional</h4>
+            <p>Experienced technician</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="50">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+            <h4>Safe</h4>
+            <p>Careful procedures</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-bolt"></i></div>
+            <h4>Fast</h4>
+            <p>Quick turnaround</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="150">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-peso-sign"></i></div>
+            <h4>Affordable</h4>
+            <p>Best value pricing</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-check-double"></i></div>
+            <h4>Reliable</h4>
+            <p>Proven results</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="250">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-search"></i></div>
+            <h4>Free Check</h4>
+            <p>Compatibility first</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-headset"></i></div>
+            <h4>Remote Support</h4>
+            <p>Anytime assistance</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="350">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-heart"></i></div>
+            <h4>100% Satisfaction</h4>
+            <p>Customer focused</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== REVIEWS ==================== -->
+  <section id="reviews" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">Customer <span class="text-neon">Reviews</span></h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"Rooted my Redmi Note 12 smoothly. Magisk working perfectly and banking apps still run. Highly recommended!"</p>
+            <div class="review-author">
+              <div class="review-avatar">J</div>
+              <div>
+                <strong>Juan D.</strong>
+                <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"My OPPO was bootlooping after a failed update. Elnie fixed it in less than an hour. Lifesaver!"</p>
+            <div class="review-author">
+              <div class="review-avatar">M</div>
+              <div>
+                <strong>Maria S.</strong>
+                <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"Installed custom ROM on my Pixel. Clean process, clear instructions, and great after-support. 10/10."</p>
+            <div class="review-author">
+              <div class="review-avatar">K</div>
+              <div>
+                <strong>Kevin R.</strong>
+                <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"Fast, professional, and affordable. Got Magisk + modules set up for my Realme. Will come back again."</p>
+            <div class="review-author">
+              <div class="review-avatar">A</div>
+              <div>
+                <strong>Andrea L.</strong>
+                <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"Unbricked my Samsung after a bad flash. Thought it was gone for good. Elnie brought it back to life!"</p>
+            <div class="review-author">
+              <div class="review-avatar">C</div>
+              <div>
+                <strong>Carlo M.</strong>
+                <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="review-text">"Clear communication and honest advice. Told me honestly if my device could be unlocked or not. Trustworthy."</p>
+            <div class="review-author">
+              <div class="review-avatar">P</div>
+              <div>
+                <strong>Paolo T.</strong>
+                <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== COMPATIBILITY CHECKER ==================== -->
+  <section id="compatibility" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Free Check</span>
+        <h2 class="section-title">Device <span class="text-neon">Compatibility</span></h2>
+        <p class="section-desc">Enter your device details and we’ll tell you what services are available</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+          <div class="compat-card glass">
+            <form id="compatForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Brand</label>
+                  <select class="form-select" id="brand" required>
+                    <option value="" disabled selected>Select Brand</option>
+                    <option>Samsung</option>
+                    <option>Google Pixel</option>
+                    <option>Xiaomi</option>
+                    <option>Redmi</option>
+                    <option>POCO</option>
+                    <option>OPPO</option>
+                    <option>Realme</option>
+                    <option>Vivo</option>
+                    <option>Nothing Phone</option>
+                    <option>OnePlus</option>
+                    <option>Motorola</option>
+                    <option>Sony</option>
+                    <option>ASUS</option>
+                    <option>Lenovo</option>
+                    <option>Huawei</option>
+                    <option>Honor</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Model</label>
+                  <input type="text" class="form-control" id="model" placeholder="e.g. Reno 13F 5G" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Android Version</label>
+                  <select class="form-select" id="android" required>
+                    <option value="" disabled selected>Select Version</option>
+                    <option>Android 15</option>
+                    <option>Android 14</option>
+                    <option>Android 13</option>
+                    <option>Android 12</option>
+                    <option>Android 11</option>
+                    <option>Android 10 or below</option>
+                    <option>Not sure</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Desired Service</label>
+                  <select class="form-select" id="service" required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option>Root + Magisk</option>
+                    <option>Bootloader Unlock</option>
+                    <option>Custom ROM</option>
+                    <option>GSI Installation</option>
+                    <option>Unbrick / Bootloop Fix</option>
+                    <option>Debloat / Optimize</option>
+                    <option>Other / Not sure</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-neon w-100 btn-lg">
+                    <i class="fas fa-search me-2"></i> Check Compatibility
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div id="compatResult" class="compat-result d-none">
+              <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+              <h4>Compatibility Check Complete</h4>
+              <p id="resultText"></p>
+              <a href="https://wa.me/639948620084" target="_blank" class="btn btn-neon mt-3">
+                <i class="fab fa-whatsapp"></i> Continue on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ==================== -->
+  <section id="faq" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked <span class="text-neon">Questions</span></h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion accordion-flush" id="faqAccordion" data-aos="fade-up">
+            <div class="accordion-item glass">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  Is rooting safe?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  When done correctly by an experienced technician, rooting is relatively safe. However, it always carries some risk (warranty void, potential for soft/hard brick if something goes wrong). We follow careful procedures and backup critical partitions whenever possible to minimize risk.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item glass">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  Can I unroot later?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. Magisk root is systemless and can usually be fully removed. You can also flash the original stock firmware to return the device to an unrooted state. Note that unlocking the bootloader itself is harder to fully reverse on some brands (e.g. Samsung Knox).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item glass">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  Will banking apps still work?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Many banking and payment apps detect root or unlocked bootloaders. We install Magisk with Zygisk, DenyList / Shamiko, and Play Integrity fixes so that most banking apps continue to work. Success rate is high but not 100% — some strict apps may still refuse to run.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item glass">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  Will OTA updates still work?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Official OTA updates usually stop working (or become risky) after unlocking the bootloader or installing a custom ROM. We can guide you on how to update manually when needed, or help you restore stock if you want to receive official updates again.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item glass">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                  Can you fix a bootloop or bricked phone?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. We handle soft bricks, bootloops, and many hard-brick cases using EDL, BROM, download mode, or ISP methods depending on the chipset. Success depends on the exact model and damage level. Contact us with your device details for an assessment.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item glass">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                  Do you offer remote service?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. Most services can be done remotely via USB debugging, TeamViewer / AnyDesk, or guided steps. For some unlocks and unbrick cases, physical access or specific cables may be required. Message us on WhatsApp to discuss your situation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="section-padding bg-darker">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="text-neon">Us</span></h2>
+        <p class="section-desc">Ready to unlock your device? Reach out now</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5" data-aos="fade-up" data-aos-delay="0">
+          <a href="https://wa.me/639948620084" target="_blank" class="contact-card">
+            <div class="contact-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+            <h3>WhatsApp</h3>
+            <p>0994 862 0084</p>
+            <span class="contact-action">Chat Now <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+        <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://www.facebook.com/share/14hrT39vNb6/" target="_blank" class="contact-card">
+            <div class="contact-icon facebook"><i class="fab fa-facebook-f"></i></div>
+            <h3>Facebook</h3>
+            <p>ELNIE Android Rooting</p>
+            <span class="contact-action">Visit Page <i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <span class="brand-icon"><i class="fas fa-bolt"></i></span>
+            <span class="brand-text">ELNIE</span>
+            <span class="brand-sub">ROOT</span>
+          </div>
+          <p class="footer-desc">Professional Android Rooting, Unlocking & Custom ROM Service. Safe, Fast, Reliable.</p>
+          <div class="footer-social">
+            <a href="https://wa.me/639948620084" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/share/14hrT39vNb6/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="#services">Android Root</a></li>
+            <li><a href="#services">Bootloader Unlock</a></li>
+            <li><a href="#services">Custom ROM</a></li>
+            <li><a href="#services">Unbrick</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Contact</h5>
+          <ul class="footer-links">
+            <li><i class="fab fa-whatsapp me-2"></i> 0994 862 0084</li>
+            <li><i class="fab fa-facebook-f me-2"></i> Facebook Page</li>
+            <li><i class="fas fa-clock me-2"></i> Flexible Hours</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 ELNIE Android Rooting Service. All rights reserved.</p>
+        <p class="small text-muted">Rooting may void warranty and carries risk. Proceed at your own responsibility.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING BUTTONS ==================== -->
+  <a href="https://wa.me/639948620084" target="_blank" class="float-btn whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <button id="backToTop" class="float-btn back-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Toast -->
+  <div id="toast" class="toast-notification"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.16/lib/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
